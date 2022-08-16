@@ -56,11 +56,21 @@
     <Analyzer Include="D:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Finite State Machine\Scripts\PlayerTankController.cs" />
+    <Compile Include="Assets\Finite State Machine\Scripts\ITank.cs" />
     <Compile Include="Assets\Finite State Machine\Scripts\FSM.cs" />
+    <Compile Include="Assets\Finite State Machine\Scripts\PlayerTankController.cs" />
     <Compile Include="Assets\Finite State Machine\Scripts\EnemyAITank.cs" />
     <Compile Include="Assets\Finite State Machine\Scripts\Bullet.cs" />
-    <Compile Include="Assets\Finite State Machine\Scripts\ITank.cs" />
+    <Compile Include="Assets\Finite State Machine\Scripts\PluggableAI\AIAction.cs" />
+    <Compile Include="Assets\Finite State Machine\Scripts\PluggableAI\AIController.cs" />
+    <Compile Include="Assets\Finite State Machine\Scripts\PluggableAI\AIDecision.cs" />
+    <Compile Include="Assets\Finite State Machine\Scripts\PluggableAI\AIState.cs" />
+    <Compile Include="Assets\Finite State Machine\Scripts\PluggableAI\AITransition.cs" />
+    <Compile Include="Assets\Finite State Machine\Scripts\PluggableAI\Actions\ActionPatrol.cs" />
+    <Compile Include="Assets\Finite State Machine\Scripts\PluggableAI\Decisions\DecisionPlayerInRange.cs" />
+    <Compile Include="Assets\Finite State Machine\Scripts\PluggableAI\Actions\ActionChase.cs" />
+    <Compile Include="Assets\Finite State Machine\Scripts\PluggableAI\Actions\ActionAttack.cs" />
+    <Compile Include="Assets\Finite State Machine\Scripts\PluggableAI\Decisions\DecisionPlayerInRangeToAttack.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

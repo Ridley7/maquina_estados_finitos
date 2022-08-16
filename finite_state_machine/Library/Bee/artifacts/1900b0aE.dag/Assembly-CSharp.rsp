@@ -354,6 +354,16 @@
 "Assets/Finite State Machine/Scripts/FSM.cs"
 "Assets/Finite State Machine/Scripts/ITank.cs"
 "Assets/Finite State Machine/Scripts/PlayerTankController.cs"
+"Assets/Finite State Machine/Scripts/PluggableAI/Actions/ActionAttack.cs"
+"Assets/Finite State Machine/Scripts/PluggableAI/Actions/ActionChase.cs"
+"Assets/Finite State Machine/Scripts/PluggableAI/Actions/ActionPatrol.cs"
+"Assets/Finite State Machine/Scripts/PluggableAI/AIAction.cs"
+"Assets/Finite State Machine/Scripts/PluggableAI/AIController.cs"
+"Assets/Finite State Machine/Scripts/PluggableAI/AIDecision.cs"
+"Assets/Finite State Machine/Scripts/PluggableAI/AIState.cs"
+"Assets/Finite State Machine/Scripts/PluggableAI/AITransition.cs"
+"Assets/Finite State Machine/Scripts/PluggableAI/Decisions/DecisionPlayerInRange.cs"
+"Assets/Finite State Machine/Scripts/PluggableAI/Decisions/DecisionPlayerInRangeToAttack.cs"
 -langversion:9.0
 
 /deterministic
